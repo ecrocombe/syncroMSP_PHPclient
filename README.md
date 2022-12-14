@@ -25,7 +25,7 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
     }
   ],
   "require": {
-    "ecrocombe/syncroMSP_PHPclient": "*@dev"
+    "ecrocombe/syncromsp_phpclient": "*@dev"
   }
 }
 ```
