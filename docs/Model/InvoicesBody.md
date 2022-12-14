@@ -25,7 +25,7 @@ Name | Type | Description | Notes
 **contact_id** | **int** |  | [optional] 
 **note** | **string** |  | [optional] 
 **hardwarecost** | **float** |  | [optional] 
-**line_items** | [**\Swagger\Client\Model\InvoicesLineItems[]**](InvoicesLineItems.md) |  | [optional] 
+**line_items** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesLineItems[]**](InvoicesLineItems.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

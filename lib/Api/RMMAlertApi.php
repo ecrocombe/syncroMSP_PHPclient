@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * RMMAlertApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,7 +94,7 @@ class RMMAlertApi
      * @param  string $status Possible values resolved, all, active. (optional, default to active)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -111,7 +111,7 @@ class RMMAlertApi
      * @param  string $status Possible values resolved, all, active. (optional, default to active)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -322,7 +322,7 @@ class RMMAlertApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -338,7 +338,7 @@ class RMMAlertApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -552,7 +552,7 @@ class RMMAlertApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -568,7 +568,7 @@ class RMMAlertApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -783,7 +783,7 @@ class RMMAlertApi
      * @param  int $id id (required)
      * @param  string $mute_for Length of time to mute alert for. Accepted values: &#x27;1-hour&#x27;, &#x27;1-day&#x27;, &#x27;2-days&#x27;, &#x27;1-week&#x27;, &#x27;2-weeks&#x27;, &#x27;1-month&#x27;, &#x27;forever&#x27; (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -800,7 +800,7 @@ class RMMAlertApi
      * @param  int $id (required)
      * @param  string $mute_for Length of time to mute alert for. Accepted values: &#x27;1-hour&#x27;, &#x27;1-day&#x27;, &#x27;2-days&#x27;, &#x27;1-week&#x27;, &#x27;2-weeks&#x27;, &#x27;1-month&#x27;, &#x27;forever&#x27; (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1025,9 +1025,9 @@ class RMMAlertApi
      *
      * Creates an RMM Alert
      *
-     * @param  \Swagger\Client\Model\RmmAlertsBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1041,9 +1041,9 @@ class RMMAlertApi
      *
      * Creates an RMM Alert
      *
-     * @param  \Swagger\Client\Model\RmmAlertsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1094,7 +1094,7 @@ class RMMAlertApi
      *
      * Creates an RMM Alert
      *
-     * @param  \Swagger\Client\Model\RmmAlertsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1114,7 +1114,7 @@ class RMMAlertApi
      *
      * Creates an RMM Alert
      *
-     * @param  \Swagger\Client\Model\RmmAlertsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1150,7 +1150,7 @@ class RMMAlertApi
     /**
      * Create request for operation 'rmmAlertsPost'
      *
-     * @param  \Swagger\Client\Model\RmmAlertsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

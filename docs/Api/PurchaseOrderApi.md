@@ -1,4 +1,4 @@
-# Swagger\Client\PurchaseOrderApi
+# VereTech\SyncroMSP_PHPclient\Client\PurchaseOrderApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -22,11 +22,11 @@ Required permission: Purchase Orders - List/Search
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PurchaseOrderApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PurchaseOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -75,18 +75,18 @@ Required permission: Purchase Orders - Edit
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PurchaseOrderApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PurchaseOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = 56; // int | 
-$body = new \Swagger\Client\Model\IdCreatePoLineItemBody(); // \Swagger\Client\Model\IdCreatePoLineItemBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody | 
 
 try {
     $apiInstance->purchaseOrdersIdCreatePoLineItemPost($id, $body);
@@ -101,7 +101,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **body** | [**\Swagger\Client\Model\IdCreatePoLineItemBody**](../Model/IdCreatePoLineItemBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody**](../Model/IdCreatePoLineItemBody.md)|  | [optional]
 
 ### Return type
 
@@ -130,11 +130,11 @@ Required permission: Purchase Orders - View Details
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PurchaseOrderApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PurchaseOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -183,18 +183,18 @@ Required permission: Purchase Orders - Edit
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PurchaseOrderApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PurchaseOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = 56; // int | 
-$body = new \Swagger\Client\Model\IdReceiveBody(); // \Swagger\Client\Model\IdReceiveBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody | 
 
 try {
     $apiInstance->purchaseOrdersIdReceivePost($id, $body);
@@ -209,7 +209,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **body** | [**\Swagger\Client\Model\IdReceiveBody**](../Model/IdReceiveBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody**](../Model/IdReceiveBody.md)|  | [optional]
 
 ### Return type
 
@@ -238,17 +238,17 @@ Required permission: Purchase Orders - Edit
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PurchaseOrderApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PurchaseOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\PurchaseOrdersBody(); // \Swagger\Client\Model\PurchaseOrdersBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody | 
 
 try {
     $apiInstance->purchaseOrdersPost($body);
@@ -262,7 +262,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\PurchaseOrdersBody**](../Model/PurchaseOrdersBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody**](../Model/PurchaseOrdersBody.md)|  | [optional]
 
 ### Return type
 

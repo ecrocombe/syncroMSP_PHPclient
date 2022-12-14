@@ -1,4 +1,4 @@
-# Swagger\Client\PortalUserApi
+# VereTech\SyncroMSP_PHPclient\Client\PortalUserApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -22,17 +22,17 @@ Required permission: Global Admin
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PortalUserApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PortalUserApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\PortalUsersCreateInvitationBody(); // \Swagger\Client\Model\PortalUsersCreateInvitationBody | Portal User ID
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\PortalUsersCreateInvitationBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\PortalUsersCreateInvitationBody | Portal User ID
 
 try {
     $apiInstance->portalUsersCreateInvitationPost($body);
@@ -46,7 +46,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\PortalUsersCreateInvitationBody**](../Model/PortalUsersCreateInvitationBody.md)| Portal User ID | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\PortalUsersCreateInvitationBody**](../Model/PortalUsersCreateInvitationBody.md)| Portal User ID | [optional]
 
 ### Return type
 
@@ -75,11 +75,11 @@ Required permission: Global Admin
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PortalUserApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PortalUserApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -132,11 +132,11 @@ Required permission: Global Admin
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PortalUserApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PortalUserApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -185,11 +185,11 @@ Required permission: Global Admin
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PortalUserApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PortalUserApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -240,11 +240,11 @@ Required permission: Global Admin
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PortalUserApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PortalUserApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),

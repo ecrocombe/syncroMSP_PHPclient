@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * UserDeviceApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,7 +93,7 @@ class UserDeviceApi
      *
      * @param  int $id User Device UUID (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -109,7 +109,7 @@ class UserDeviceApi
      *
      * @param  int $id User Device UUID (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -322,9 +322,9 @@ class UserDeviceApi
      * Updates an existing User Device by UUID
      *
      * @param  int $id Device UUID (required)
-     * @param  \Swagger\Client\Model\UserDevicesIdBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -339,9 +339,9 @@ class UserDeviceApi
      * Updates an existing User Device by UUID
      *
      * @param  int $id Device UUID (required)
-     * @param  \Swagger\Client\Model\UserDevicesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -393,7 +393,7 @@ class UserDeviceApi
      * Updates an existing User Device by UUID
      *
      * @param  int $id Device UUID (required)
-     * @param  \Swagger\Client\Model\UserDevicesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -414,7 +414,7 @@ class UserDeviceApi
      * Updates an existing User Device by UUID
      *
      * @param  int $id Device UUID (required)
-     * @param  \Swagger\Client\Model\UserDevicesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -451,7 +451,7 @@ class UserDeviceApi
      * Create request for operation 'userDevicesIdPut'
      *
      * @param  int $id Device UUID (required)
-     * @param  \Swagger\Client\Model\UserDevicesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -559,9 +559,9 @@ class UserDeviceApi
      *
      * Creates a User Device
      *
-     * @param  \Swagger\Client\Model\UserDevicesBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -575,9 +575,9 @@ class UserDeviceApi
      *
      * Creates a User Device
      *
-     * @param  \Swagger\Client\Model\UserDevicesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -628,7 +628,7 @@ class UserDeviceApi
      *
      * Creates a User Device
      *
-     * @param  \Swagger\Client\Model\UserDevicesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -648,7 +648,7 @@ class UserDeviceApi
      *
      * Creates a User Device
      *
-     * @param  \Swagger\Client\Model\UserDevicesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -684,7 +684,7 @@ class UserDeviceApi
     /**
      * Create request for operation 'userDevicesPost'
      *
-     * @param  \Swagger\Client\Model\UserDevicesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

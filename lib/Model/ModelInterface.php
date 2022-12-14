@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client\Model
+ * @package  VereTech\SyncroMSP_PHPclient\Client\Model
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -31,7 +31,7 @@ namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 /**
  * Interface abstracting model access.
  *
- * @package Swagger\Client\Model
+ * @package VereTech\SyncroMSP_PHPclient\Client\Model
  * @author  Swagger Codegen team
  */
 interface ModelInterface

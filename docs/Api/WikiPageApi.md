@@ -1,4 +1,4 @@
-# Swagger\Client\WikiPageApi
+# VereTech\SyncroMSP_PHPclient\Client\WikiPageApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -22,11 +22,11 @@ Required permission: Documentation - Allow Usage
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\WikiPageApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\WikiPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -75,11 +75,11 @@ Required permission: Documentation - Delete
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\WikiPageApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\WikiPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -117,7 +117,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **wikiPagesIdGet**
-> \Swagger\Client\Model\InlineResponse2006 wikiPagesIdGet($id)
+> \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006 wikiPagesIdGet($id)
 
 Retrieves a Wiki Page
 
@@ -128,11 +128,11 @@ Required permission: Documentation - Allow Usage
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\WikiPageApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\WikiPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -157,7 +157,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
+[**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006**](../Model/InlineResponse2006.md)
 
 ### Authorization
 
@@ -182,18 +182,18 @@ Required permission: Documentation - Edit
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\WikiPageApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\WikiPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = 56; // int | 
-$body = new \Swagger\Client\Model\WikiPagesIdBody(); // \Swagger\Client\Model\WikiPagesIdBody | Wiki Page object that needs to be updated
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody | Wiki Page object that needs to be updated
 
 try {
     $apiInstance->wikiPagesIdPut($id, $body);
@@ -208,7 +208,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **body** | [**\Swagger\Client\Model\WikiPagesIdBody**](../Model/WikiPagesIdBody.md)| Wiki Page object that needs to be updated | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody**](../Model/WikiPagesIdBody.md)| Wiki Page object that needs to be updated | [optional]
 
 ### Return type
 
@@ -237,17 +237,17 @@ Required permission: Documentation - Create
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\WikiPageApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\WikiPageApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\WikiPagesBody(); // \Swagger\Client\Model\WikiPagesBody | Wiki Page object that needs to be added
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody | Wiki Page object that needs to be added
 
 try {
     $apiInstance->wikiPagesPost($body);
@@ -261,7 +261,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\WikiPagesBody**](../Model/WikiPagesBody.md)| Wiki Page object that needs to be added | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody**](../Model/WikiPagesBody.md)| Wiki Page object that needs to be added | [optional]
 
 ### Return type
 

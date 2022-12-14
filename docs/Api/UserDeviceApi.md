@@ -1,4 +1,4 @@
-# Swagger\Client\UserDeviceApi
+# VereTech\SyncroMSP_PHPclient\Client\UserDeviceApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -18,11 +18,11 @@ Retrieves an existing User Device by UUID
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\UserDeviceApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\UserDeviceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -69,18 +69,18 @@ Updates an existing User Device by UUID
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\UserDeviceApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\UserDeviceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = 56; // int | Device UUID
-$body = new \Swagger\Client\Model\UserDevicesIdBody(); // \Swagger\Client\Model\UserDevicesIdBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody | 
 
 try {
     $apiInstance->userDevicesIdPut($id, $body);
@@ -95,7 +95,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**| Device UUID |
- **body** | [**\Swagger\Client\Model\UserDevicesIdBody**](../Model/UserDevicesIdBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesIdBody**](../Model/UserDevicesIdBody.md)|  | [optional]
 
 ### Return type
 
@@ -122,17 +122,17 @@ Creates a User Device
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\UserDeviceApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\UserDeviceApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\UserDevicesBody(); // \Swagger\Client\Model\UserDevicesBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody | 
 
 try {
     $apiInstance->userDevicesPost($body);
@@ -146,7 +146,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\UserDevicesBody**](../Model/UserDevicesBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\UserDevicesBody**](../Model/UserDevicesBody.md)|  | [optional]
 
 ### Return type
 

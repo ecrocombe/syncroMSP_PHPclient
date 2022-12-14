@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * WorksheetResultApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,7 +94,7 @@ class WorksheetResultApi
      * @param  int $ticket_id ticket_id (required)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -111,7 +111,7 @@ class WorksheetResultApi
      * @param  int $ticket_id (required)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -333,7 +333,7 @@ class WorksheetResultApi
      * @param  int $ticket_id ticket_id (required)
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -350,7 +350,7 @@ class WorksheetResultApi
      * @param  int $ticket_id (required)
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -582,7 +582,7 @@ class WorksheetResultApi
      * @param  int $ticket_id ticket_id (required)
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -599,7 +599,7 @@ class WorksheetResultApi
      * @param  int $ticket_id (required)
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -830,9 +830,9 @@ class WorksheetResultApi
      *
      * @param  int $ticket_id ticket_id (required)
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\WorksheetResultsIdBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WorksheetResultsIdBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -848,9 +848,9 @@ class WorksheetResultApi
      *
      * @param  int $ticket_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WorksheetResultsIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WorksheetResultsIdBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -903,7 +903,7 @@ class WorksheetResultApi
      *
      * @param  int $ticket_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WorksheetResultsIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WorksheetResultsIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -925,7 +925,7 @@ class WorksheetResultApi
      *
      * @param  int $ticket_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WorksheetResultsIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WorksheetResultsIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -963,7 +963,7 @@ class WorksheetResultApi
      *
      * @param  int $ticket_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WorksheetResultsIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WorksheetResultsIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1086,9 +1086,9 @@ class WorksheetResultApi
      * Creates Worksheet Result
      *
      * @param  int $ticket_id ticket_id (required)
-     * @param  \Swagger\Client\Model\TicketIdWorksheetResultsBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\TicketIdWorksheetResultsBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1103,9 +1103,9 @@ class WorksheetResultApi
      * Creates Worksheet Result
      *
      * @param  int $ticket_id (required)
-     * @param  \Swagger\Client\Model\TicketIdWorksheetResultsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\TicketIdWorksheetResultsBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1157,7 +1157,7 @@ class WorksheetResultApi
      * Creates Worksheet Result
      *
      * @param  int $ticket_id (required)
-     * @param  \Swagger\Client\Model\TicketIdWorksheetResultsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\TicketIdWorksheetResultsBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1178,7 +1178,7 @@ class WorksheetResultApi
      * Creates Worksheet Result
      *
      * @param  int $ticket_id (required)
-     * @param  \Swagger\Client\Model\TicketIdWorksheetResultsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\TicketIdWorksheetResultsBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1215,7 +1215,7 @@ class WorksheetResultApi
      * Create request for operation 'ticketsTicketIdWorksheetResultsPost'
      *
      * @param  int $ticket_id (required)
-     * @param  \Swagger\Client\Model\TicketIdWorksheetResultsBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\TicketIdWorksheetResultsBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

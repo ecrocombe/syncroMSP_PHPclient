@@ -1,4 +1,4 @@
-# Swagger\Client\AssetApi
+# VereTech\SyncroMSP_PHPclient\Client\AssetApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -21,11 +21,11 @@ Required permission: Assets - List/Search Single-Customer Users can only access 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\AssetApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\AssetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -71,7 +71,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAssetsIdGet**
-> \Swagger\Client\Model\InlineResponse2001 customerAssetsIdGet($id)
+> \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001 customerAssetsIdGet($id)
 
 Retrieves an Asset by ID
 
@@ -82,11 +82,11 @@ Required permission: Assets - View Details Single-Customer Users can only access
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\AssetApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\AssetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2001**](../Model/InlineResponse2001.md)
+[**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001**](../Model/InlineResponse2001.md)
 
 ### Authorization
 
@@ -125,7 +125,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **customerAssetsIdPut**
-> \Swagger\Client\Model\InlineResponse2001 customerAssetsIdPut($id, $body)
+> \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001 customerAssetsIdPut($id, $body)
 
 Updates an existing Asset by ID
 
@@ -136,18 +136,18 @@ Required permission: Assets - Edit Single-Customer Users can only access own ass
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\AssetApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\AssetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = 56; // int | 
-$body = new \Swagger\Client\Model\CustomerAssetsIdBody(); // \Swagger\Client\Model\CustomerAssetsIdBody | Asset object that needs to be updated
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody | Asset object that needs to be updated
 
 try {
     $result = $apiInstance->customerAssetsIdPut($id, $body);
@@ -163,11 +163,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **body** | [**\Swagger\Client\Model\CustomerAssetsIdBody**](../Model/CustomerAssetsIdBody.md)| Asset object that needs to be updated | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody**](../Model/CustomerAssetsIdBody.md)| Asset object that needs to be updated | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2001**](../Model/InlineResponse2001.md)
+[**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001**](../Model/InlineResponse2001.md)
 
 ### Authorization
 
@@ -192,17 +192,17 @@ Required permission: Assets - Create Single-Customer Users can only access own a
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\AssetApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\AssetApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\CustomerAssetsBody(); // \Swagger\Client\Model\CustomerAssetsBody | Asset object that needs to be added
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody | Asset object that needs to be added
 
 try {
     $apiInstance->customerAssetsPost($body);
@@ -216,7 +216,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\CustomerAssetsBody**](../Model/CustomerAssetsBody.md)| Asset object that needs to be added | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody**](../Model/CustomerAssetsBody.md)| Asset object that needs to be added | [optional]
 
 ### Return type
 

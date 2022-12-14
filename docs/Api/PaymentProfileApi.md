@@ -1,4 +1,4 @@
-# Swagger\Client\PaymentProfileApi
+# VereTech\SyncroMSP_PHPclient\Client\PaymentProfileApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -20,11 +20,11 @@ Returns a paginated list of Payment Profiles
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PaymentProfileApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PaymentProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -71,11 +71,11 @@ Deletes a Payment Profile
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PaymentProfileApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PaymentProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -124,11 +124,11 @@ Retrieves a Payment Profile by ID
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PaymentProfileApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PaymentProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -177,11 +177,11 @@ Updates a Payment Profile
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PaymentProfileApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PaymentProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -189,7 +189,7 @@ $apiInstance = new Swagger\Client\Api\PaymentProfileApi(
 );
 $customer_id = 56; // int | 
 $id = 56; // int | 
-$body = new \Swagger\Client\Model\PaymentProfilesIdBody(); // \Swagger\Client\Model\PaymentProfilesIdBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody | 
 
 try {
     $apiInstance->customersCustomerIdPaymentProfilesIdPut($customer_id, $id, $body);
@@ -205,7 +205,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **customer_id** | **int**|  |
  **id** | **int**|  |
- **body** | [**\Swagger\Client\Model\PaymentProfilesIdBody**](../Model/PaymentProfilesIdBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody**](../Model/PaymentProfilesIdBody.md)|  | [optional]
 
 ### Return type
 
@@ -232,18 +232,18 @@ Creates a Payment Profile
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\PaymentProfileApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\PaymentProfileApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $customer_id = 56; // int | 
-$body = new \Swagger\Client\Model\CustomerIdPaymentProfilesBody(); // \Swagger\Client\Model\CustomerIdPaymentProfilesBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody | 
 
 try {
     $apiInstance->customersCustomerIdPaymentProfilesPost($customer_id, $body);
@@ -258,7 +258,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **customer_id** | **int**|  |
- **body** | [**\Swagger\Client\Model\CustomerIdPaymentProfilesBody**](../Model/CustomerIdPaymentProfilesBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody**](../Model/CustomerIdPaymentProfilesBody.md)|  | [optional]
 
 ### Return type
 

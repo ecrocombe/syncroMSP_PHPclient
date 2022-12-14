@@ -1,4 +1,4 @@
-# Swagger\Client\ProductSerialApi
+# VereTech\SyncroMSP_PHPclient\Client\ProductSerialApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -21,18 +21,18 @@ Required permission: Products - List/Search Additional permissions required depe
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProductSerialApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ProductSerialApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $product_id = 56; // int | 
-$body = new \Swagger\Client\Model\ProductSerialsAttachToLineItemBody(); // \Swagger\Client\Model\ProductSerialsAttachToLineItemBody | 
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody | 
 
 try {
     $apiInstance->productsProductIdProductSerialsAttachToLineItemPost($product_id, $body);
@@ -47,7 +47,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **product_id** | **int**|  |
- **body** | [**\Swagger\Client\Model\ProductSerialsAttachToLineItemBody**](../Model/ProductSerialsAttachToLineItemBody.md)|  | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody**](../Model/ProductSerialsAttachToLineItemBody.md)|  | [optional]
 
 ### Return type
 
@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **productsProductIdProductSerialsGet**
-> \Swagger\Client\Model\InlineResponse2004 productsProductIdProductSerialsGet($product_id, $status, $page)
+> \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004 productsProductIdProductSerialsGet($product_id, $status, $page)
 
 Returns a paginated list of Product_serials
 
@@ -76,11 +76,11 @@ Required permission: Products - List/Search
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProductSerialApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ProductSerialApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2004**](../Model/InlineResponse2004.md)
+[**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004**](../Model/InlineResponse2004.md)
 
 ### Authorization
 
@@ -134,11 +134,11 @@ Required permission: Products - Edit
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProductSerialApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ProductSerialApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -146,7 +146,7 @@ $apiInstance = new Swagger\Client\Api\ProductSerialApi(
 );
 $product_id = 56; // int | 
 $id = 56; // int | 
-$body = new \Swagger\Client\Model\ProductSerialsIdBody(); // \Swagger\Client\Model\ProductSerialsIdBody | Product Serial object that needs to be updated
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody | Product Serial object that needs to be updated
 
 try {
     $apiInstance->productsProductIdProductSerialsIdPut($product_id, $id, $body);
@@ -162,7 +162,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **product_id** | **int**|  |
  **id** | **int**|  |
- **body** | [**\Swagger\Client\Model\ProductSerialsIdBody**](../Model/ProductSerialsIdBody.md)| Product Serial object that needs to be updated | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody**](../Model/ProductSerialsIdBody.md)| Product Serial object that needs to be updated | [optional]
 
 ### Return type
 
@@ -191,18 +191,18 @@ Required permission: Products - Edit
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProductSerialApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ProductSerialApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $product_id = 56; // int | 
-$body = new \Swagger\Client\Model\ProductIdProductSerialsBody(); // \Swagger\Client\Model\ProductIdProductSerialsBody | Product Serial object that needs to be added
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody | Product Serial object that needs to be added
 
 try {
     $apiInstance->productsProductIdProductSerialsPost($product_id, $body);
@@ -217,7 +217,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **product_id** | **int**|  |
- **body** | [**\Swagger\Client\Model\ProductIdProductSerialsBody**](../Model/ProductIdProductSerialsBody.md)| Product Serial object that needs to be added | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody**](../Model/ProductIdProductSerialsBody.md)| Product Serial object that needs to be added | [optional]
 
 ### Return type
 

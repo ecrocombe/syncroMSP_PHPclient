@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * InlineResponse2006 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class InlineResponse2006 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'wiki_page' => '\Swagger\Client\Model\InlineResponse2006WikiPage'    ];
+        'wiki_page' => '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006WikiPage'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class InlineResponse2006 implements ModelInterface, ArrayAccess
     /**
      * Gets wiki_page
      *
-     * @return \Swagger\Client\Model\InlineResponse2006WikiPage
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006WikiPage
      */
     public function getWikiPage()
     {
@@ -209,7 +209,7 @@ class InlineResponse2006 implements ModelInterface, ArrayAccess
     /**
      * Sets wiki_page
      *
-     * @param \Swagger\Client\Model\InlineResponse2006WikiPage $wiki_page wiki_page
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006WikiPage $wiki_page wiki_page
      *
      * @return $this
      */

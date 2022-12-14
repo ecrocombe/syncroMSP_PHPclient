@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * InvoicesBody Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -78,7 +78,7 @@ class InvoicesBody implements ModelInterface, ArrayAccess
 'contact_id' => 'int',
 'note' => 'string',
 'hardwarecost' => 'float',
-'line_items' => '\Swagger\Client\Model\InvoicesLineItems[]'    ];
+'line_items' => '\VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesLineItems[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -868,7 +868,7 @@ class InvoicesBody implements ModelInterface, ArrayAccess
     /**
      * Gets line_items
      *
-     * @return \Swagger\Client\Model\InvoicesLineItems[]
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesLineItems[]
      */
     public function getLineItems()
     {
@@ -878,7 +878,7 @@ class InvoicesBody implements ModelInterface, ArrayAccess
     /**
      * Sets line_items
      *
-     * @param \Swagger\Client\Model\InvoicesLineItems[] $line_items line_items
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesLineItems[] $line_items line_items
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * IdProcessFormBody Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,9 +56,9 @@ class IdProcessFormBody implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'customer_details' => '\Swagger\Client\Model\NewTicketFormsidprocessFormCustomerDetails',
-'ticket_details' => '\Swagger\Client\Model\NewTicketFormsidprocessFormTicketDetails',
-'appointments' => '\Swagger\Client\Model\NewTicketFormsidprocessFormAppointments'    ];
+        'customer_details' => '\VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormCustomerDetails',
+'ticket_details' => '\VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormTicketDetails',
+'appointments' => '\VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormAppointments'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class IdProcessFormBody implements ModelInterface, ArrayAccess
     /**
      * Gets customer_details
      *
-     * @return \Swagger\Client\Model\NewTicketFormsidprocessFormCustomerDetails
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormCustomerDetails
      */
     public function getCustomerDetails()
     {
@@ -221,7 +221,7 @@ class IdProcessFormBody implements ModelInterface, ArrayAccess
     /**
      * Sets customer_details
      *
-     * @param \Swagger\Client\Model\NewTicketFormsidprocessFormCustomerDetails $customer_details customer_details
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormCustomerDetails $customer_details customer_details
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class IdProcessFormBody implements ModelInterface, ArrayAccess
     /**
      * Gets ticket_details
      *
-     * @return \Swagger\Client\Model\NewTicketFormsidprocessFormTicketDetails
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormTicketDetails
      */
     public function getTicketDetails()
     {
@@ -245,7 +245,7 @@ class IdProcessFormBody implements ModelInterface, ArrayAccess
     /**
      * Sets ticket_details
      *
-     * @param \Swagger\Client\Model\NewTicketFormsidprocessFormTicketDetails $ticket_details ticket_details
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormTicketDetails $ticket_details ticket_details
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class IdProcessFormBody implements ModelInterface, ArrayAccess
     /**
      * Gets appointments
      *
-     * @return \Swagger\Client\Model\NewTicketFormsidprocessFormAppointments
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormAppointments
      */
     public function getAppointments()
     {
@@ -269,7 +269,7 @@ class IdProcessFormBody implements ModelInterface, ArrayAccess
     /**
      * Sets appointments
      *
-     * @param \Swagger\Client\Model\NewTicketFormsidprocessFormAppointments $appointments appointments
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\NewTicketFormsidprocessFormAppointments $appointments appointments
      *
      * @return $this
      */

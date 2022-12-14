@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * InlineResponse200 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -71,7 +71,7 @@ class InlineResponse200 implements ModelInterface, ArrayAccess
 'start_at_label' => 'string',
 'all_day' => 'bool',
 'ticket' => 'object',
-'customer' => '\Swagger\Client\Model\InlineResponse200Customer'    ];
+'customer' => '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse200Customer'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -649,7 +649,7 @@ class InlineResponse200 implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \Swagger\Client\Model\InlineResponse200Customer
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse200Customer
      */
     public function getCustomer()
     {
@@ -659,7 +659,7 @@ class InlineResponse200 implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \Swagger\Client\Model\InlineResponse200Customer $customer customer
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse200Customer $customer customer
      *
      * @return $this
      */

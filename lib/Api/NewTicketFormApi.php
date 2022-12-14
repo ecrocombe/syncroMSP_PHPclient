@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * NewTicketFormApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,7 +92,7 @@ class NewTicketFormApi
      * Returns a paginated list of Ticket Forms
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -107,7 +107,7 @@ class NewTicketFormApi
      * Returns a paginated list of Ticket Forms
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -304,7 +304,7 @@ class NewTicketFormApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -320,7 +320,7 @@ class NewTicketFormApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -533,9 +533,9 @@ class NewTicketFormApi
      * Creates a new Ticket for a Ticket Form
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdProcessFormBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdProcessFormBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -550,9 +550,9 @@ class NewTicketFormApi
      * Creates a new Ticket for a Ticket Form
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdProcessFormBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdProcessFormBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -604,7 +604,7 @@ class NewTicketFormApi
      * Creates a new Ticket for a Ticket Form
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdProcessFormBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdProcessFormBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -625,7 +625,7 @@ class NewTicketFormApi
      * Creates a new Ticket for a Ticket Form
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdProcessFormBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdProcessFormBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -662,7 +662,7 @@ class NewTicketFormApi
      * Create request for operation 'newTicketFormsIdProcessFormPost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdProcessFormBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdProcessFormBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
