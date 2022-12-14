@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client;
+namespace VereTech\SyncroMSP_PHPclient\Client;
 
 use \Exception;
 

@@ -25,7 +25,7 @@
  * Please update the test case below to test the endpoint.
  */
 
-namespace Swagger\Client;
+namespace VereTech\SyncroMSP_PHPclient\Client;
 
 use Swagger\Client\Configuration;
 use Swagger\Client\ApiException;
