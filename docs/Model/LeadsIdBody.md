@@ -1,0 +1,45 @@
+# LeadsIdBody
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**address** | **string** |  | [optional] 
+**business_name** | **string** |  | [optional] 
+**city** | **string** |  | [optional] 
+**zip** | **string** |  | [optional] 
+**converted** | **bool** |  | [optional] 
+**message_read** | **bool** |  | [optional] 
+**disabled** | **bool** |  | [optional] 
+**email** | **string** |  | [optional] 
+**first_name** | **string** |  | [optional] 
+**last_name** | **string** |  | [optional] 
+**mobile** | **string** |  | [optional] 
+**phone** | **string** |  | [optional] 
+**state** | **string** |  | [optional] 
+**ticket_description** | **string** |  | [optional] 
+**ticket_problem_type** | **string** |  | [optional] 
+**ticket_subject** | **string** |  | [optional] 
+**location_id** | **int** |  | [optional] 
+**from_check_in** | **bool** |  | [optional] 
+**customer_id** | **int** |  | [optional] 
+**ticket_id** | **int** |  | [optional] 
+**hidden_notes** | **string** |  | [optional] 
+**contact_id** | **int** |  | [optional] 
+**appointment_time** | **string** |  | [optional] 
+**status** | **string** |  | [optional] 
+**user_id** | **int** |  | [optional] 
+**ticket_type_id** | **int** |  | [optional] 
+**mailbox_id** | **int** |  | [optional] 
+**opportunity_start_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**opportunity_amount_dollars** | **float** |  | [optional] 
+**likelihood** | **int** |  | [optional] 
+**properties** | **object** |  | [optional] 
+**ticket_properties** | **object** |  | [optional] 
+**customer_purchase_id** | **int** |  | [optional] 
+**signature_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**signature_name** | **string** |  | [optional] 
+**signature_data** | **string** |  | [optional] 
+**appointment_type_id** | **int** |  | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
