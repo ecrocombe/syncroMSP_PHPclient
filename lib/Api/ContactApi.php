@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * ContactApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,7 +94,7 @@ class ContactApi
      * @param  int $customer_id Any contacts attached to a Customer ID (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -111,7 +111,7 @@ class ContactApi
      * @param  int $customer_id Any contacts attached to a Customer ID (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -322,7 +322,7 @@ class ContactApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -338,7 +338,7 @@ class ContactApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -552,9 +552,9 @@ class ContactApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2002
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2002
      */
     public function contactsIdGet($id)
     {
@@ -569,13 +569,13 @@ class ContactApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2002, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2002, HTTP status code, HTTP response headers (array of strings)
      */
     public function contactsIdGetWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2002';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2002';
         $request = $this->contactsIdGetRequest($id);
 
         try {
@@ -627,7 +627,7 @@ class ContactApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2002',
+                        '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2002',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -669,7 +669,7 @@ class ContactApi
      */
     public function contactsIdGetAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2002';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2002';
         $request = $this->contactsIdGetRequest($id);
 
         return $this->client
@@ -818,9 +818,9 @@ class ContactApi
      * Updates an existing Contact
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -835,9 +835,9 @@ class ContactApi
      * Updates an existing Contact
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -889,7 +889,7 @@ class ContactApi
      * Updates an existing Contact
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -910,7 +910,7 @@ class ContactApi
      * Updates an existing Contact
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -947,7 +947,7 @@ class ContactApi
      * Create request for operation 'contactsIdPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody $body Contact object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1055,9 +1055,9 @@ class ContactApi
      *
      * Creates a Contact
      *
-     * @param  \Swagger\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1071,9 +1071,9 @@ class ContactApi
      *
      * Creates a Contact
      *
-     * @param  \Swagger\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1124,7 +1124,7 @@ class ContactApi
      *
      * Creates a Contact
      *
-     * @param  \Swagger\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1144,7 +1144,7 @@ class ContactApi
      *
      * Creates a Contact
      *
-     * @param  \Swagger\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1180,7 +1180,7 @@ class ContactApi
     /**
      * Create request for operation 'contactsPost'
      *
-     * @param  \Swagger\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody $body Contact object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * WikiPageApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,7 +93,7 @@ class WikiPageApi
      *
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 100 result (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -109,7 +109,7 @@ class WikiPageApi
      *
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 100 result (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -313,7 +313,7 @@ class WikiPageApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -329,7 +329,7 @@ class WikiPageApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -543,9 +543,9 @@ class WikiPageApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2006
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006
      */
     public function wikiPagesIdGet($id)
     {
@@ -560,13 +560,13 @@ class WikiPageApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2006, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006, HTTP status code, HTTP response headers (array of strings)
      */
     public function wikiPagesIdGetWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2006';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006';
         $request = $this->wikiPagesIdGetRequest($id);
 
         try {
@@ -618,7 +618,7 @@ class WikiPageApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2006',
+                        '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -660,7 +660,7 @@ class WikiPageApi
      */
     public function wikiPagesIdGetAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2006';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2006';
         $request = $this->wikiPagesIdGetRequest($id);
 
         return $this->client
@@ -809,9 +809,9 @@ class WikiPageApi
      * Updates an existing Wiki Page by ID
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -826,9 +826,9 @@ class WikiPageApi
      * Updates an existing Wiki Page by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -880,7 +880,7 @@ class WikiPageApi
      * Updates an existing Wiki Page by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -901,7 +901,7 @@ class WikiPageApi
      * Updates an existing Wiki Page by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -938,7 +938,7 @@ class WikiPageApi
      * Create request for operation 'wikiPagesIdPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesIdBody $body Wiki Page object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1046,9 +1046,9 @@ class WikiPageApi
      *
      * Creates a Wiki Page
      *
-     * @param  \Swagger\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1062,9 +1062,9 @@ class WikiPageApi
      *
      * Creates a Wiki Page
      *
-     * @param  \Swagger\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1115,7 +1115,7 @@ class WikiPageApi
      *
      * Creates a Wiki Page
      *
-     * @param  \Swagger\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1135,7 +1135,7 @@ class WikiPageApi
      *
      * Creates a Wiki Page
      *
-     * @param  \Swagger\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1171,7 +1171,7 @@ class WikiPageApi
     /**
      * Create request for operation 'wikiPagesPost'
      *
-     * @param  \Swagger\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\WikiPagesBody $body Wiki Page object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * EstimateApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -95,7 +95,7 @@ class EstimateApi
      * @param  string $status Returns estimates with a given status. Possible values are &#x27;approved&#x27; and &#x27;declined&#x27;. (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 50 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -113,7 +113,7 @@ class EstimateApi
      * @param  string $status Returns estimates with a given status. Possible values are &#x27;approved&#x27; and &#x27;declined&#x27;. (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 50 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -331,7 +331,7 @@ class EstimateApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -347,7 +347,7 @@ class EstimateApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -561,7 +561,7 @@ class EstimateApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -577,7 +577,7 @@ class EstimateApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -791,7 +791,7 @@ class EstimateApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -807,7 +807,7 @@ class EstimateApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1022,7 +1022,7 @@ class EstimateApi
      * @param  int $id Estimate ID (required)
      * @param  string $number Estimate number is used when the server cannot find an Estimate by ID (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1039,7 +1039,7 @@ class EstimateApi
      * @param  int $id Estimate ID (required)
      * @param  string $number Estimate number is used when the server cannot find an Estimate by ID (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1261,7 +1261,7 @@ class EstimateApi
      * @param  int $id id (required)
      * @param  int $line_item_id line_item_id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1278,7 +1278,7 @@ class EstimateApi
      * @param  int $id (required)
      * @param  int $line_item_id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1511,7 +1511,7 @@ class EstimateApi
      * @param  int $line_item_id line_item_id (required)
      * @param  object $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1529,7 +1529,7 @@ class EstimateApi
      * @param  int $line_item_id (required)
      * @param  object $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1767,7 +1767,7 @@ class EstimateApi
      * @param  int $id id (required)
      * @param  object $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1784,7 +1784,7 @@ class EstimateApi
      * @param  int $id (required)
      * @param  object $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2004,7 +2004,7 @@ class EstimateApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2020,7 +2020,7 @@ class EstimateApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2233,9 +2233,9 @@ class EstimateApi
      * Updates an existing Estimate by ID
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\EstimatesIdBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesIdBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2250,9 +2250,9 @@ class EstimateApi
      * Updates an existing Estimate by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\EstimatesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesIdBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2304,7 +2304,7 @@ class EstimateApi
      * Updates an existing Estimate by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\EstimatesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2325,7 +2325,7 @@ class EstimateApi
      * Updates an existing Estimate by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\EstimatesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2362,7 +2362,7 @@ class EstimateApi
      * Create request for operation 'estimatesIdPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\EstimatesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -2470,9 +2470,9 @@ class EstimateApi
      *
      * Creates an Estimate
      *
-     * @param  \Swagger\Client\Model\EstimatesBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2486,9 +2486,9 @@ class EstimateApi
      *
      * Creates an Estimate
      *
-     * @param  \Swagger\Client\Model\EstimatesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2539,7 +2539,7 @@ class EstimateApi
      *
      * Creates an Estimate
      *
-     * @param  \Swagger\Client\Model\EstimatesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2559,7 +2559,7 @@ class EstimateApi
      *
      * Creates an Estimate
      *
-     * @param  \Swagger\Client\Model\EstimatesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2595,7 +2595,7 @@ class EstimateApi
     /**
      * Create request for operation 'estimatesPost'
      *
-     * @param  \Swagger\Client\Model\EstimatesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

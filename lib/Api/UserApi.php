@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * UserApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,7 +92,7 @@ class UserApi
      * Returns the current user
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -107,7 +107,7 @@ class UserApi
      * Returns the current user
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -302,9 +302,9 @@ class UserApi
      *
      * Authorize a User with One Time Password
      *
-     * @param  \Swagger\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -318,9 +318,9 @@ class UserApi
      *
      * Authorize a User with One Time Password
      *
-     * @param  \Swagger\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -371,7 +371,7 @@ class UserApi
      *
      * Authorize a User with One Time Password
      *
-     * @param  \Swagger\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -391,7 +391,7 @@ class UserApi
      *
      * Authorize a User with One Time Password
      *
-     * @param  \Swagger\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -427,7 +427,7 @@ class UserApi
     /**
      * Create request for operation 'otpLoginPost'
      *
-     * @param  \Swagger\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\OtpLoginBody $body Time-based one-time password from your authentication application. (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -522,7 +522,7 @@ class UserApi
      * Returns a paginated list of Users
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -537,7 +537,7 @@ class UserApi
      * Returns a paginated list of Users
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -734,7 +734,7 @@ class UserApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -750,7 +750,7 @@ class UserApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

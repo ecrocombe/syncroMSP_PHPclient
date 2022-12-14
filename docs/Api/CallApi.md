@@ -1,4 +1,4 @@
-# Swagger\Client\CallApi
+# VereTech\SyncroMSP_PHPclient\Client\CallApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -16,7 +16,7 @@ Get Caller ID
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\CallApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\CallApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * AssetApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -97,7 +97,7 @@ class AssetApi
      * @param  string $query Search query (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -117,7 +117,7 @@ class AssetApi
      * @param  string $query Search query (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -349,9 +349,9 @@ class AssetApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2001
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001
      */
     public function customerAssetsIdGet($id)
     {
@@ -366,13 +366,13 @@ class AssetApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2001, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAssetsIdGetWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2001';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001';
         $request = $this->customerAssetsIdGetRequest($id);
 
         try {
@@ -424,7 +424,7 @@ class AssetApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2001',
+                        '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -466,7 +466,7 @@ class AssetApi
      */
     public function customerAssetsIdGetAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2001';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001';
         $request = $this->customerAssetsIdGetRequest($id);
 
         return $this->client
@@ -615,11 +615,11 @@ class AssetApi
      * Updates an existing Asset by ID
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2001
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001
      */
     public function customerAssetsIdPut($id, $body = null)
     {
@@ -633,15 +633,15 @@ class AssetApi
      * Updates an existing Asset by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2001, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001, HTTP status code, HTTP response headers (array of strings)
      */
     public function customerAssetsIdPutWithHttpInfo($id, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2001';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001';
         $request = $this->customerAssetsIdPutRequest($id, $body);
 
         try {
@@ -693,7 +693,7 @@ class AssetApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2001',
+                        '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -709,7 +709,7 @@ class AssetApi
      * Updates an existing Asset by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -730,14 +730,14 @@ class AssetApi
      * Updates an existing Asset by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function customerAssetsIdPutAsyncWithHttpInfo($id, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2001';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2001';
         $request = $this->customerAssetsIdPutRequest($id, $body);
 
         return $this->client
@@ -781,7 +781,7 @@ class AssetApi
      * Create request for operation 'customerAssetsIdPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsIdBody $body Asset object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -889,9 +889,9 @@ class AssetApi
      *
      * Creates an Asset
      *
-     * @param  \Swagger\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -905,9 +905,9 @@ class AssetApi
      *
      * Creates an Asset
      *
-     * @param  \Swagger\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -958,7 +958,7 @@ class AssetApi
      *
      * Creates an Asset
      *
-     * @param  \Swagger\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -978,7 +978,7 @@ class AssetApi
      *
      * Creates an Asset
      *
-     * @param  \Swagger\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1014,7 +1014,7 @@ class AssetApi
     /**
      * Create request for operation 'customerAssetsPost'
      *
-     * @param  \Swagger\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerAssetsBody $body Asset object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

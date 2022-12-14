@@ -28,7 +28,7 @@ Name | Type | Description | Notes
 **physical_location** | **string** |  | [optional] 
 **serialized** | **bool** |  | [optional] 
 **category_ids** | **int[]** |  | [optional] 
-**product_skus_attributes** | [**\Swagger\Client\Model\ProductsidProductSkusAttributes[]**](ProductsidProductSkusAttributes.md) |  | [optional] 
+**product_skus_attributes** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\ProductsidProductSkusAttributes[]**](ProductsidProductSkusAttributes.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

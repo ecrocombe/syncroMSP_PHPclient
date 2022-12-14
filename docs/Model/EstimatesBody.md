@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **status** | **string** | Valid values are Fresh, Draft, Approved, Declined. | [optional] 
 **ticket_id** | **int** |  | [optional] 
 **location_id** | **int** |  | [optional] 
-**line_items** | [**\Swagger\Client\Model\EstimatesLineItems[]**](EstimatesLineItems.md) | Array of Line Items. | [optional] 
+**line_items** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesLineItems[]**](EstimatesLineItems.md) | Array of Line Items. | [optional] 
 **created_at** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **updated_at** | [**\DateTime**](\DateTime.md) |  | [optional] 
 

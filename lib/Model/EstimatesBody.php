@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * EstimatesBody Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,7 +63,7 @@ class EstimatesBody implements ModelInterface, ArrayAccess
 'status' => 'string',
 'ticket_id' => 'int',
 'location_id' => 'int',
-'line_items' => '\Swagger\Client\Model\EstimatesLineItems[]',
+'line_items' => '\VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesLineItems[]',
 'created_at' => '\DateTime',
 'updated_at' => '\DateTime'    ];
 
@@ -421,7 +421,7 @@ class EstimatesBody implements ModelInterface, ArrayAccess
     /**
      * Gets line_items
      *
-     * @return \Swagger\Client\Model\EstimatesLineItems[]
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesLineItems[]
      */
     public function getLineItems()
     {
@@ -431,7 +431,7 @@ class EstimatesBody implements ModelInterface, ArrayAccess
     /**
      * Sets line_items
      *
-     * @param \Swagger\Client\Model\EstimatesLineItems[] $line_items Array of Line Items.
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\EstimatesLineItems[] $line_items Array of Line Items.
      *
      * @return $this
      */

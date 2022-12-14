@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * PurchaseOrderApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,7 +93,7 @@ class PurchaseOrderApi
      *
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 20 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -109,7 +109,7 @@ class PurchaseOrderApi
      *
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 20 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -312,9 +312,9 @@ class PurchaseOrderApi
      * Adds a Product to a Purchase Order
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdCreatePoLineItemBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -329,9 +329,9 @@ class PurchaseOrderApi
      * Adds a Product to a Purchase Order
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCreatePoLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -383,7 +383,7 @@ class PurchaseOrderApi
      * Adds a Product to a Purchase Order
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCreatePoLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -404,7 +404,7 @@ class PurchaseOrderApi
      * Adds a Product to a Purchase Order
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCreatePoLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -441,7 +441,7 @@ class PurchaseOrderApi
      * Create request for operation 'purchaseOrdersIdCreatePoLineItemPost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCreatePoLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCreatePoLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -551,7 +551,7 @@ class PurchaseOrderApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -567,7 +567,7 @@ class PurchaseOrderApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -780,9 +780,9 @@ class PurchaseOrderApi
      * receive purchase_order
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdReceiveBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -797,9 +797,9 @@ class PurchaseOrderApi
      * receive purchase_order
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdReceiveBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -851,7 +851,7 @@ class PurchaseOrderApi
      * receive purchase_order
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdReceiveBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -872,7 +872,7 @@ class PurchaseOrderApi
      * receive purchase_order
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdReceiveBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -909,7 +909,7 @@ class PurchaseOrderApi
      * Create request for operation 'purchaseOrdersIdReceivePost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdReceiveBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdReceiveBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1017,9 +1017,9 @@ class PurchaseOrderApi
      *
      * Creates a Purchase Order
      *
-     * @param  \Swagger\Client\Model\PurchaseOrdersBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1033,9 +1033,9 @@ class PurchaseOrderApi
      *
      * Creates a Purchase Order
      *
-     * @param  \Swagger\Client\Model\PurchaseOrdersBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1086,7 +1086,7 @@ class PurchaseOrderApi
      *
      * Creates a Purchase Order
      *
-     * @param  \Swagger\Client\Model\PurchaseOrdersBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1106,7 +1106,7 @@ class PurchaseOrderApi
      *
      * Creates a Purchase Order
      *
-     * @param  \Swagger\Client\Model\PurchaseOrdersBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1142,7 +1142,7 @@ class PurchaseOrderApi
     /**
      * Create request for operation 'purchaseOrdersPost'
      *
-     * @param  \Swagger\Client\Model\PurchaseOrdersBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PurchaseOrdersBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

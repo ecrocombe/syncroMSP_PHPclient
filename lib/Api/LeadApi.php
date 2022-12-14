@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * LeadApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -99,7 +99,7 @@ class LeadApi
      * @param  string $query Search query (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -121,7 +121,7 @@ class LeadApi
      * @param  string $query Search query (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -376,7 +376,7 @@ class LeadApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -392,7 +392,7 @@ class LeadApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -605,9 +605,9 @@ class LeadApi
      * Updates an existing Lead by ID
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -622,9 +622,9 @@ class LeadApi
      * Updates an existing Lead by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -676,7 +676,7 @@ class LeadApi
      * Updates an existing Lead by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -697,7 +697,7 @@ class LeadApi
      * Updates an existing Lead by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -734,7 +734,7 @@ class LeadApi
      * Create request for operation 'leadsIdPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsIdBody $body Lead object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -842,9 +842,9 @@ class LeadApi
      *
      * Creates a Lead
      *
-     * @param  \Swagger\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -858,9 +858,9 @@ class LeadApi
      *
      * Creates a Lead
      *
-     * @param  \Swagger\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -911,7 +911,7 @@ class LeadApi
      *
      * Creates a Lead
      *
-     * @param  \Swagger\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -931,7 +931,7 @@ class LeadApi
      *
      * Creates a Lead
      *
-     * @param  \Swagger\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -967,7 +967,7 @@ class LeadApi
     /**
      * Create request for operation 'leadsPost'
      *
-     * @param  \Swagger\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\LeadsBody $body Lead object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

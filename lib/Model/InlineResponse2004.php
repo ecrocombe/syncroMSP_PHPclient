@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * InlineResponse2004 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class InlineResponse2004 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product_serials' => '\Swagger\Client\Model\InlineResponse2004ProductSerials[]'    ];
+        'product_serials' => '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004ProductSerials[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class InlineResponse2004 implements ModelInterface, ArrayAccess
     /**
      * Gets product_serials
      *
-     * @return \Swagger\Client\Model\InlineResponse2004ProductSerials[]
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004ProductSerials[]
      */
     public function getProductSerials()
     {
@@ -209,7 +209,7 @@ class InlineResponse2004 implements ModelInterface, ArrayAccess
     /**
      * Sets product_serials
      *
-     * @param \Swagger\Client\Model\InlineResponse2004ProductSerials[] $product_serials product_serials
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004ProductSerials[] $product_serials product_serials
      *
      * @return $this
      */

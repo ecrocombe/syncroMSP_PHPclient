@@ -38,7 +38,7 @@ Name | Type | Description | Notes
 **ref_customer_id** | **int** |  | [optional] 
 **business_and_full_name** | **string** |  | [optional] 
 **business_then_name** | **string** |  | [optional] 
-**contacts** | [**\Swagger\Client\Model\InlineResponse2003CustomerContacts[]**](InlineResponse2003CustomerContacts.md) |  | [optional] 
+**contacts** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003CustomerContacts[]**](InlineResponse2003CustomerContacts.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

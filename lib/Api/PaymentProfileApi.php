@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * PaymentProfileApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,7 +93,7 @@ class PaymentProfileApi
      *
      * @param  int $customer_id customer_id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -109,7 +109,7 @@ class PaymentProfileApi
      *
      * @param  int $customer_id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -324,7 +324,7 @@ class PaymentProfileApi
      * @param  int $customer_id customer_id (required)
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -341,7 +341,7 @@ class PaymentProfileApi
      * @param  int $customer_id (required)
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -573,7 +573,7 @@ class PaymentProfileApi
      * @param  int $customer_id customer_id (required)
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -590,7 +590,7 @@ class PaymentProfileApi
      * @param  int $customer_id (required)
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -821,9 +821,9 @@ class PaymentProfileApi
      *
      * @param  int $customer_id customer_id (required)
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\PaymentProfilesIdBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -839,9 +839,9 @@ class PaymentProfileApi
      *
      * @param  int $customer_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\PaymentProfilesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -894,7 +894,7 @@ class PaymentProfileApi
      *
      * @param  int $customer_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\PaymentProfilesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -916,7 +916,7 @@ class PaymentProfileApi
      *
      * @param  int $customer_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\PaymentProfilesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -954,7 +954,7 @@ class PaymentProfileApi
      *
      * @param  int $customer_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\PaymentProfilesIdBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\PaymentProfilesIdBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1077,9 +1077,9 @@ class PaymentProfileApi
      * Creates a Payment Profile
      *
      * @param  int $customer_id customer_id (required)
-     * @param  \Swagger\Client\Model\CustomerIdPaymentProfilesBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1094,9 +1094,9 @@ class PaymentProfileApi
      * Creates a Payment Profile
      *
      * @param  int $customer_id (required)
-     * @param  \Swagger\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1148,7 +1148,7 @@ class PaymentProfileApi
      * Creates a Payment Profile
      *
      * @param  int $customer_id (required)
-     * @param  \Swagger\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1169,7 +1169,7 @@ class PaymentProfileApi
      * Creates a Payment Profile
      *
      * @param  int $customer_id (required)
-     * @param  \Swagger\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1206,7 +1206,7 @@ class PaymentProfileApi
      * Create request for operation 'customersCustomerIdPaymentProfilesPost'
      *
      * @param  int $customer_id (required)
-     * @param  \Swagger\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\CustomerIdPaymentProfilesBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

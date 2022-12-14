@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * ContractApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,7 +93,7 @@ class ContractApi
      *
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 50 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -109,7 +109,7 @@ class ContractApi
      *
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 50 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -313,7 +313,7 @@ class ContractApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -329,7 +329,7 @@ class ContractApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -543,7 +543,7 @@ class ContractApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -559,7 +559,7 @@ class ContractApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -772,9 +772,9 @@ class ContractApi
      * Updates an existing Contract by ID
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -789,9 +789,9 @@ class ContractApi
      * Updates an existing Contract by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -843,7 +843,7 @@ class ContractApi
      * Updates an existing Contract by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -864,7 +864,7 @@ class ContractApi
      * Updates an existing Contract by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -901,7 +901,7 @@ class ContractApi
      * Create request for operation 'contractsIdPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsIdBody $body Contract object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1009,9 +1009,9 @@ class ContractApi
      *
      * Creates a Contract
      *
-     * @param  \Swagger\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1025,9 +1025,9 @@ class ContractApi
      *
      * Creates a Contract
      *
-     * @param  \Swagger\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1078,7 +1078,7 @@ class ContractApi
      *
      * Creates a Contract
      *
-     * @param  \Swagger\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1098,7 +1098,7 @@ class ContractApi
      *
      * Creates a Contract
      *
-     * @param  \Swagger\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1134,7 +1134,7 @@ class ContractApi
     /**
      * Create request for operation 'contractsPost'
      *
-     * @param  \Swagger\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ContractsBody $body Contract object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

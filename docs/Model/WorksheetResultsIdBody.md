@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **complete** | **bool** |  | [optional] 
 **public** | **bool** |  | [optional] 
 **required** | **bool** |  | [optional] 
-**answers** | [**\Swagger\Client\Model\TicketsticketIdworksheetResultsidAnswers**](TicketsticketIdworksheetResultsidAnswers.md) |  | [optional] 
+**answers** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\TicketsticketIdworksheetResultsidAnswers**](TicketsticketIdworksheetResultsidAnswers.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

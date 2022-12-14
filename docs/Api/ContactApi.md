@@ -1,4 +1,4 @@
-# Swagger\Client\ContactApi
+# VereTech\SyncroMSP_PHPclient\Client\ContactApi
 
 All URIs are relative to *https://{subdomain}.syncromsp.com/api/v1*
 
@@ -22,11 +22,11 @@ Required permission: Customers - View Detail Single-Customer Users can only acce
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ContactApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ContactApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -77,11 +77,11 @@ Required permission: Customers - Edit Single-Customer Users can only access own 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ContactApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ContactApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -119,7 +119,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **contactsIdGet**
-> \Swagger\Client\Model\InlineResponse2002 contactsIdGet($id)
+> \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2002 contactsIdGet($id)
 
 Retrieves a Contact by ID
 
@@ -130,11 +130,11 @@ Required permission: Customers - View Detail Single-Customer Users can only acce
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ContactApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ContactApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -159,7 +159,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse2002**](../Model/InlineResponse2002.md)
+[**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2002**](../Model/InlineResponse2002.md)
 
 ### Authorization
 
@@ -184,18 +184,18 @@ Required permission: Customers - Edit Single-Customer Users can only access own 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ContactApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ContactApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = 56; // int | 
-$body = new \Swagger\Client\Model\ContactsIdBody(); // \Swagger\Client\Model\ContactsIdBody | Contact object that needs to be updated
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody | Contact object that needs to be updated
 
 try {
     $apiInstance->contactsIdPut($id, $body);
@@ -210,7 +210,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **body** | [**\Swagger\Client\Model\ContactsIdBody**](../Model/ContactsIdBody.md)| Contact object that needs to be updated | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\ContactsIdBody**](../Model/ContactsIdBody.md)| Contact object that needs to be updated | [optional]
 
 ### Return type
 
@@ -239,17 +239,17 @@ Required permission: Customers - Edit Single-Customer Users can only access own 
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 // Configure API key authorization: bearerAuth
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = VereTech\SyncroMSP_PHPclient\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ContactApi(
+$apiInstance = new VereTech\SyncroMSP_PHPclient\Client\Api\ContactApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$body = new \Swagger\Client\Model\ContactsBody(); // \Swagger\Client\Model\ContactsBody | Contact object that needs to be added
+$body = new \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody(); // \VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody | Contact object that needs to be added
 
 try {
     $apiInstance->contactsPost($body);
@@ -263,7 +263,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**\Swagger\Client\Model\ContactsBody**](../Model/ContactsBody.md)| Contact object that needs to be added | [optional]
+ **body** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\ContactsBody**](../Model/ContactsBody.md)| Contact object that needs to be added | [optional]
 
 ### Return type
 

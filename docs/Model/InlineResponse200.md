@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **start_at_label** | **string** |  | [optional] 
 **all_day** | **bool** |  | [optional] 
 **ticket** | **object** |  | [optional] 
-**customer** | [**\Swagger\Client\Model\InlineResponse200Customer**](InlineResponse200Customer.md) |  | [optional] 
+**customer** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse200Customer**](InlineResponse200Customer.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

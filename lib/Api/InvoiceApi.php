@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * InvoiceApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -97,7 +97,7 @@ class InvoiceApi
      * @param  string $since_updated_at Any invoices updated since a date (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -117,7 +117,7 @@ class InvoiceApi
      * @param  string $since_updated_at Any invoices updated since a date (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -349,7 +349,7 @@ class InvoiceApi
      *
      * @param  int $id ID of Invoice to delete (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -365,7 +365,7 @@ class InvoiceApi
      *
      * @param  int $id ID of Invoice to delete (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -579,7 +579,7 @@ class InvoiceApi
      *
      * @param  int $id ID of Invoice which will be emailed (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -595,7 +595,7 @@ class InvoiceApi
      *
      * @param  int $id ID of Invoice which will be emailed (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -809,9 +809,9 @@ class InvoiceApi
      *
      * @param  int $id ID or Number of Invoice to retrieve (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2003
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003
      */
     public function invoicesIdGet($id)
     {
@@ -826,13 +826,13 @@ class InvoiceApi
      *
      * @param  int $id ID or Number of Invoice to retrieve (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003, HTTP status code, HTTP response headers (array of strings)
      */
     public function invoicesIdGetWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003';
         $request = $this->invoicesIdGetRequest($id);
 
         try {
@@ -884,7 +884,7 @@ class InvoiceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2003',
+                        '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -926,7 +926,7 @@ class InvoiceApi
      */
     public function invoicesIdGetAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2003';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003';
         $request = $this->invoicesIdGetRequest($id);
 
         return $this->client
@@ -1076,7 +1076,7 @@ class InvoiceApi
      *
      * @param  int $id The ID of the Invoice to print (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1092,7 +1092,7 @@ class InvoiceApi
      *
      * @param  int $id The ID of the Invoice to print (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1305,9 +1305,9 @@ class InvoiceApi
      * Updates an existing invoice by ID
      *
      * @param  int $id ID of Invoice to update (required)
-     * @param  \Swagger\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1322,9 +1322,9 @@ class InvoiceApi
      * Updates an existing invoice by ID
      *
      * @param  int $id ID of Invoice to update (required)
-     * @param  \Swagger\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1376,7 +1376,7 @@ class InvoiceApi
      * Updates an existing invoice by ID
      *
      * @param  int $id ID of Invoice to update (required)
-     * @param  \Swagger\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1397,7 +1397,7 @@ class InvoiceApi
      * Updates an existing invoice by ID
      *
      * @param  int $id ID of Invoice to update (required)
-     * @param  \Swagger\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1434,7 +1434,7 @@ class InvoiceApi
      * Create request for operation 'invoicesIdPut'
      *
      * @param  int $id ID of Invoice to update (required)
-     * @param  \Swagger\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesIdBody $body Invoice properties to update (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1544,7 +1544,7 @@ class InvoiceApi
      *
      * @param  int $id ID of Invoice whose Ticket will be returned (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1560,7 +1560,7 @@ class InvoiceApi
      *
      * @param  int $id ID of Invoice whose Ticket will be returned (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1772,9 +1772,9 @@ class InvoiceApi
      *
      * Creates an Invoice
      *
-     * @param  \Swagger\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1788,9 +1788,9 @@ class InvoiceApi
      *
      * Creates an Invoice
      *
-     * @param  \Swagger\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1841,7 +1841,7 @@ class InvoiceApi
      *
      * Creates an Invoice
      *
-     * @param  \Swagger\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1861,7 +1861,7 @@ class InvoiceApi
      *
      * Creates an Invoice
      *
-     * @param  \Swagger\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1897,7 +1897,7 @@ class InvoiceApi
     /**
      * Create request for operation 'invoicesPost'
      *
-     * @param  \Swagger\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\InvoicesBody $body Invoice object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

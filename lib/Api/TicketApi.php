@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * TicketApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -104,7 +104,7 @@ class TicketApi
      * @param  int $ticket_search_id Returns results of a Ticket Search (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -131,7 +131,7 @@ class TicketApi
      * @param  int $ticket_search_id Returns results of a Ticket Search (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 25 results (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -411,9 +411,9 @@ class TicketApi
      * Creates a Ticket Line Item
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdAddLineItemBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdAddLineItemBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -428,9 +428,9 @@ class TicketApi
      * Creates a Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdAddLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdAddLineItemBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -482,7 +482,7 @@ class TicketApi
      * Creates a Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdAddLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdAddLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -503,7 +503,7 @@ class TicketApi
      * Creates a Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdAddLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdAddLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -540,7 +540,7 @@ class TicketApi
      * Create request for operation 'ticketsIdAddLineItemPost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdAddLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdAddLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -651,7 +651,7 @@ class TicketApi
      * @param  int $id id (required)
      * @param  object $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -668,7 +668,7 @@ class TicketApi
      * @param  int $id (required)
      * @param  object $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -889,7 +889,7 @@ class TicketApi
      * @param  int $id id (required)
      * @param  object $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -906,7 +906,7 @@ class TicketApi
      * @param  int $id (required)
      * @param  object $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1125,9 +1125,9 @@ class TicketApi
      * Adds a Comment to a Ticket
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdCommentBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCommentBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1142,9 +1142,9 @@ class TicketApi
      * Adds a Comment to a Ticket
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCommentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCommentBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1196,7 +1196,7 @@ class TicketApi
      * Adds a Comment to a Ticket
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCommentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCommentBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1217,7 +1217,7 @@ class TicketApi
      * Adds a Comment to a Ticket
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCommentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCommentBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1254,7 +1254,7 @@ class TicketApi
      * Create request for operation 'ticketsIdCommentPost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdCommentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdCommentBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1364,7 +1364,7 @@ class TicketApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1380,7 +1380,7 @@ class TicketApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1593,9 +1593,9 @@ class TicketApi
      * Deletes a Ticket Attachment
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdDeleteAttachmentBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdDeleteAttachmentBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1610,9 +1610,9 @@ class TicketApi
      * Deletes a Ticket Attachment
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdDeleteAttachmentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdDeleteAttachmentBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1664,7 +1664,7 @@ class TicketApi
      * Deletes a Ticket Attachment
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdDeleteAttachmentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdDeleteAttachmentBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1685,7 +1685,7 @@ class TicketApi
      * Deletes a Ticket Attachment
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdDeleteAttachmentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdDeleteAttachmentBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1722,7 +1722,7 @@ class TicketApi
      * Create request for operation 'ticketsIdDeleteAttachmentPost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdDeleteAttachmentBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdDeleteAttachmentBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1833,7 +1833,7 @@ class TicketApi
      * @param  int $id id (required)
      * @param  object $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1850,7 +1850,7 @@ class TicketApi
      * @param  int $id (required)
      * @param  object $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2070,7 +2070,7 @@ class TicketApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2086,7 +2086,7 @@ class TicketApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2300,7 +2300,7 @@ class TicketApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2316,7 +2316,7 @@ class TicketApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2531,7 +2531,7 @@ class TicketApi
      * @param  int $id id (required)
      * @param  object $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2548,7 +2548,7 @@ class TicketApi
      * @param  int $id (required)
      * @param  object $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2767,9 +2767,9 @@ class TicketApi
      * Deletes a Ticket Line Item
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdRemoveLineItemBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdRemoveLineItemBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2784,9 +2784,9 @@ class TicketApi
      * Deletes a Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdRemoveLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdRemoveLineItemBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2838,7 +2838,7 @@ class TicketApi
      * Deletes a Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdRemoveLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdRemoveLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2859,7 +2859,7 @@ class TicketApi
      * Deletes a Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdRemoveLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdRemoveLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2896,7 +2896,7 @@ class TicketApi
      * Create request for operation 'ticketsIdRemoveLineItemPost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdRemoveLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdRemoveLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -3005,9 +3005,9 @@ class TicketApi
      * Create a Ticket Timer for a Ticket
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdTimerEntryBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdTimerEntryBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3022,9 +3022,9 @@ class TicketApi
      * Create a Ticket Timer for a Ticket
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdTimerEntryBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3076,7 +3076,7 @@ class TicketApi
      * Create a Ticket Timer for a Ticket
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdTimerEntryBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -3097,7 +3097,7 @@ class TicketApi
      * Create a Ticket Timer for a Ticket
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdTimerEntryBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -3134,7 +3134,7 @@ class TicketApi
      * Create request for operation 'ticketsIdTimerEntryPost'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdTimerEntryBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -3243,9 +3243,9 @@ class TicketApi
      * Updates an existing Ticket Line Item
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdUpdateLineItemBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateLineItemBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3260,9 +3260,9 @@ class TicketApi
      * Updates an existing Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateLineItemBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3314,7 +3314,7 @@ class TicketApi
      * Updates an existing Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -3335,7 +3335,7 @@ class TicketApi
      * Updates an existing Ticket Line Item
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -3372,7 +3372,7 @@ class TicketApi
      * Create request for operation 'ticketsIdUpdateLineItemPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -3481,9 +3481,9 @@ class TicketApi
      * Updates an existing Ticket Timer
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\IdUpdateTimerEntryBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateTimerEntryBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3498,9 +3498,9 @@ class TicketApi
      * Updates an existing Ticket Timer
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateTimerEntryBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3552,7 +3552,7 @@ class TicketApi
      * Updates an existing Ticket Timer
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateTimerEntryBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -3573,7 +3573,7 @@ class TicketApi
      * Updates an existing Ticket Timer
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateTimerEntryBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -3610,7 +3610,7 @@ class TicketApi
      * Create request for operation 'ticketsIdUpdateTimerEntryPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\IdUpdateTimerEntryBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\IdUpdateTimerEntryBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -3720,7 +3720,7 @@ class TicketApi
      *
      * @param  object $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3736,7 +3736,7 @@ class TicketApi
      *
      * @param  object $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3938,7 +3938,7 @@ class TicketApi
      * Returns Tickets Settings
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3953,7 +3953,7 @@ class TicketApi
      * Returns Tickets Settings
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

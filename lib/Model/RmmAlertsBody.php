@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * RmmAlertsBody Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,7 +61,7 @@ class RmmAlertsBody implements ModelInterface, ArrayAccess
 'description' => 'string',
 'resolved' => 'bool',
 'status' => 'string',
-'properties' => '\Swagger\Client\Model\RmmAlertsProperties'    ];
+'properties' => '\VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsProperties'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -349,7 +349,7 @@ class RmmAlertsBody implements ModelInterface, ArrayAccess
     /**
      * Gets properties
      *
-     * @return \Swagger\Client\Model\RmmAlertsProperties
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsProperties
      */
     public function getProperties()
     {
@@ -359,7 +359,7 @@ class RmmAlertsBody implements ModelInterface, ArrayAccess
     /**
      * Sets properties
      *
-     * @param \Swagger\Client\Model\RmmAlertsProperties $properties properties
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\RmmAlertsProperties $properties properties
      *
      * @return $this
      */

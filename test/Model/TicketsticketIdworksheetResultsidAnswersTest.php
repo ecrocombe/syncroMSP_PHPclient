@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,7 +33,7 @@ namespace VereTech\SyncroMSP_PHPclient\Client;
  *
  * @category    Class
  * @description TicketsticketIdworksheetResultsidAnswers
- * @package     Swagger\Client
+ * @package     VereTech\SyncroMSP_PHPclient\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

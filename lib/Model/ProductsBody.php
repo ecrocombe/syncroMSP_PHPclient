@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * ProductsBody Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -81,7 +81,7 @@ class ProductsBody implements ModelInterface, ArrayAccess
 'physical_location' => 'string',
 'serialized' => 'bool',
 'category_ids' => 'int[]',
-'product_skus_attributes' => '\Swagger\Client\Model\ProductsProductSkusAttributes[]'    ];
+'product_skus_attributes' => '\VereTech\SyncroMSP_PHPclient\Client\Model\ProductsProductSkusAttributes[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -955,7 +955,7 @@ class ProductsBody implements ModelInterface, ArrayAccess
     /**
      * Gets product_skus_attributes
      *
-     * @return \Swagger\Client\Model\ProductsProductSkusAttributes[]
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\ProductsProductSkusAttributes[]
      */
     public function getProductSkusAttributes()
     {
@@ -965,7 +965,7 @@ class ProductsBody implements ModelInterface, ArrayAccess
     /**
      * Sets product_skus_attributes
      *
-     * @param \Swagger\Client\Model\ProductsProductSkusAttributes[] $product_skus_attributes product_skus_attributes
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\ProductsProductSkusAttributes[] $product_skus_attributes product_skus_attributes
      *
      * @return $this
      */

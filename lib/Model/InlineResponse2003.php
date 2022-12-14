@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * InlineResponse2003 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -78,9 +78,9 @@ class InlineResponse2003 implements ModelInterface, ArrayAccess
 'note' => 'string',
 'hardwarecost' => 'float',
 'user_id' => 'int',
-'customer' => '\Swagger\Client\Model\InlineResponse2003Customer',
-'line_items' => '\Swagger\Client\Model\InlineResponse2003LineItems[]',
-'payments' => '\Swagger\Client\Model\PortalUsersCreateInvitationBody[]'    ];
+'customer' => '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003Customer',
+'line_items' => '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003LineItems[]',
+'payments' => '\VereTech\SyncroMSP_PHPclient\Client\Model\PortalUsersCreateInvitationBody[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -871,7 +871,7 @@ class InlineResponse2003 implements ModelInterface, ArrayAccess
     /**
      * Gets customer
      *
-     * @return \Swagger\Client\Model\InlineResponse2003Customer
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003Customer
      */
     public function getCustomer()
     {
@@ -881,7 +881,7 @@ class InlineResponse2003 implements ModelInterface, ArrayAccess
     /**
      * Sets customer
      *
-     * @param \Swagger\Client\Model\InlineResponse2003Customer $customer customer
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003Customer $customer customer
      *
      * @return $this
      */
@@ -895,7 +895,7 @@ class InlineResponse2003 implements ModelInterface, ArrayAccess
     /**
      * Gets line_items
      *
-     * @return \Swagger\Client\Model\InlineResponse2003LineItems[]
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003LineItems[]
      */
     public function getLineItems()
     {
@@ -905,7 +905,7 @@ class InlineResponse2003 implements ModelInterface, ArrayAccess
     /**
      * Sets line_items
      *
-     * @param \Swagger\Client\Model\InlineResponse2003LineItems[] $line_items line_items
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003LineItems[] $line_items line_items
      *
      * @return $this
      */
@@ -919,7 +919,7 @@ class InlineResponse2003 implements ModelInterface, ArrayAccess
     /**
      * Gets payments
      *
-     * @return \Swagger\Client\Model\PortalUsersCreateInvitationBody[]
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\PortalUsersCreateInvitationBody[]
      */
     public function getPayments()
     {
@@ -929,7 +929,7 @@ class InlineResponse2003 implements ModelInterface, ArrayAccess
     /**
      * Sets payments
      *
-     * @param \Swagger\Client\Model\PortalUsersCreateInvitationBody[] $payments payments
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\PortalUsersCreateInvitationBody[] $payments payments
      *
      * @return $this
      */

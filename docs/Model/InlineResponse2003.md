@@ -25,9 +25,9 @@ Name | Type | Description | Notes
 **note** | **string** |  | [optional] 
 **hardwarecost** | **float** |  | [optional] 
 **user_id** | **int** |  | [optional] 
-**customer** | [**\Swagger\Client\Model\InlineResponse2003Customer**](InlineResponse2003Customer.md) |  | [optional] 
-**line_items** | [**\Swagger\Client\Model\InlineResponse2003LineItems[]**](InlineResponse2003LineItems.md) |  | [optional] 
-**payments** | [**\Swagger\Client\Model\PortalUsersCreateInvitationBody[]**](PortalUsersCreateInvitationBody.md) |  | [optional] 
+**customer** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003Customer**](InlineResponse2003Customer.md) |  | [optional] 
+**line_items** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2003LineItems[]**](InlineResponse2003LineItems.md) |  | [optional] 
+**payments** | [**\VereTech\SyncroMSP_PHPclient\Client\Model\PortalUsersCreateInvitationBody[]**](PortalUsersCreateInvitationBody.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

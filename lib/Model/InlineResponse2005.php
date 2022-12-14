@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * InlineResponse2005 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class InlineResponse2005 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'vendor' => '\Swagger\Client\Model\InlineResponse2005Vendor'    ];
+        'vendor' => '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2005Vendor'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class InlineResponse2005 implements ModelInterface, ArrayAccess
     /**
      * Gets vendor
      *
-     * @return \Swagger\Client\Model\InlineResponse2005Vendor
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2005Vendor
      */
     public function getVendor()
     {
@@ -209,7 +209,7 @@ class InlineResponse2005 implements ModelInterface, ArrayAccess
     /**
      * Sets vendor
      *
-     * @param \Swagger\Client\Model\InlineResponse2005Vendor $vendor vendor
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2005Vendor $vendor vendor
      *
      * @return $this
      */

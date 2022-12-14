@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * AppointmentTypeApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,7 +92,7 @@ class AppointmentTypeApi
      * Returns a paginated list of Appointment Types
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -107,7 +107,7 @@ class AppointmentTypeApi
      * Returns a paginated list of Appointment Types
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -304,7 +304,7 @@ class AppointmentTypeApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -320,7 +320,7 @@ class AppointmentTypeApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -534,7 +534,7 @@ class AppointmentTypeApi
      *
      * @param  int $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -550,7 +550,7 @@ class AppointmentTypeApi
      *
      * @param  int $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -763,9 +763,9 @@ class AppointmentTypeApi
      * Updates an existing Appointment Type by ID
      *
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -780,9 +780,9 @@ class AppointmentTypeApi
      * Updates an existing Appointment Type by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -834,7 +834,7 @@ class AppointmentTypeApi
      * Updates an existing Appointment Type by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -855,7 +855,7 @@ class AppointmentTypeApi
      * Updates an existing Appointment Type by ID
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -892,7 +892,7 @@ class AppointmentTypeApi
      * Create request for operation 'appointmentTypesIdPut'
      *
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesIdBody $body Appointment Type object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1000,9 +1000,9 @@ class AppointmentTypeApi
      *
      * Creates an Appointment Type
      *
-     * @param  \Swagger\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1016,9 +1016,9 @@ class AppointmentTypeApi
      *
      * Creates an Appointment Type
      *
-     * @param  \Swagger\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1069,7 +1069,7 @@ class AppointmentTypeApi
      *
      * Creates an Appointment Type
      *
-     * @param  \Swagger\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1089,7 +1089,7 @@ class AppointmentTypeApi
      *
      * Creates an Appointment Type
      *
-     * @param  \Swagger\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1125,7 +1125,7 @@ class AppointmentTypeApi
     /**
      * Create request for operation 'appointmentTypesPost'
      *
-     * @param  \Swagger\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\AppointmentTypesBody $body Appointment Type object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

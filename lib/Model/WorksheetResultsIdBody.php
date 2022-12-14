@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,13 +29,13 @@
 namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * WorksheetResultsIdBody Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,7 +62,7 @@ class WorksheetResultsIdBody implements ModelInterface, ArrayAccess
 'complete' => 'bool',
 'public' => 'bool',
 'required' => 'bool',
-'answers' => '\Swagger\Client\Model\TicketsticketIdworksheetResultsidAnswers'    ];
+'answers' => '\VereTech\SyncroMSP_PHPclient\Client\Model\TicketsticketIdworksheetResultsidAnswers'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -379,7 +379,7 @@ class WorksheetResultsIdBody implements ModelInterface, ArrayAccess
     /**
      * Gets answers
      *
-     * @return \Swagger\Client\Model\TicketsticketIdworksheetResultsidAnswers
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\TicketsticketIdworksheetResultsidAnswers
      */
     public function getAnswers()
     {
@@ -389,7 +389,7 @@ class WorksheetResultsIdBody implements ModelInterface, ArrayAccess
     /**
      * Sets answers
      *
-     * @param \Swagger\Client\Model\TicketsticketIdworksheetResultsidAnswers $answers answers
+     * @param \VereTech\SyncroMSP_PHPclient\Client\Model\TicketsticketIdworksheetResultsidAnswers $answers answers
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -33,16 +33,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use VereTech\SyncroMSP_PHPclient\Client\ApiException;
+use VereTech\SyncroMSP_PHPclient\Client\Configuration;
+use VereTech\SyncroMSP_PHPclient\Client\HeaderSelector;
+use VereTech\SyncroMSP_PHPclient\Client\ObjectSerializer;
 
 /**
  * ProductSerialApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  VereTech\SyncroMSP_PHPclient\Client
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,9 +92,9 @@ class ProductSerialApi
      * Adds Product Serials to a Line Item
      *
      * @param  int $product_id product_id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsAttachToLineItemBody $body body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody $body body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -109,9 +109,9 @@ class ProductSerialApi
      * Adds Product Serials to a Line Item
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -163,7 +163,7 @@ class ProductSerialApi
      * Adds Product Serials to a Line Item
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -184,7 +184,7 @@ class ProductSerialApi
      * Adds Product Serials to a Line Item
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -221,7 +221,7 @@ class ProductSerialApi
      * Create request for operation 'productsProductIdProductSerialsAttachToLineItemPost'
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsAttachToLineItemBody $body (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -333,9 +333,9 @@ class ProductSerialApi
      * @param  string $status Possible values are reserved, sold, returned, in_transfer, breakage, used_in_refurb, in_stock (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 100 result (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse2004
+     * @return \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004
      */
     public function productsProductIdProductSerialsGet($product_id, $status = null, $page = null)
     {
@@ -352,13 +352,13 @@ class ProductSerialApi
      * @param  string $status Possible values are reserved, sold, returned, in_transfer, breakage, used_in_refurb, in_stock (optional)
      * @param  int $page Returns provided page of results, each &#x27;page&#x27; contains 100 result (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse2004, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004, HTTP status code, HTTP response headers (array of strings)
      */
     public function productsProductIdProductSerialsGetWithHttpInfo($product_id, $status = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2004';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004';
         $request = $this->productsProductIdProductSerialsGetRequest($product_id, $status, $page);
 
         try {
@@ -410,7 +410,7 @@ class ProductSerialApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse2004',
+                        '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -456,7 +456,7 @@ class ProductSerialApi
      */
     public function productsProductIdProductSerialsGetAsyncWithHttpInfo($product_id, $status = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse2004';
+        $returnType = '\VereTech\SyncroMSP_PHPclient\Client\Model\InlineResponse2004';
         $request = $this->productsProductIdProductSerialsGetRequest($product_id, $status, $page);
 
         return $this->client
@@ -616,9 +616,9 @@ class ProductSerialApi
      *
      * @param  int $product_id product_id (required)
      * @param  int $id id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -634,9 +634,9 @@ class ProductSerialApi
      *
      * @param  int $product_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -689,7 +689,7 @@ class ProductSerialApi
      *
      * @param  int $product_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -711,7 +711,7 @@ class ProductSerialApi
      *
      * @param  int $product_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -749,7 +749,7 @@ class ProductSerialApi
      *
      * @param  int $product_id (required)
      * @param  int $id (required)
-     * @param  \Swagger\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductSerialsIdBody $body Product Serial object that needs to be updated (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -872,9 +872,9 @@ class ProductSerialApi
      * Creates a Product Serial
      *
      * @param  int $product_id product_id (required)
-     * @param  \Swagger\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -889,9 +889,9 @@ class ProductSerialApi
      * Creates a Product Serial
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \VereTech\SyncroMSP_PHPclient\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -943,7 +943,7 @@ class ProductSerialApi
      * Creates a Product Serial
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -964,7 +964,7 @@ class ProductSerialApi
      * Creates a Product Serial
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1001,7 +1001,7 @@ class ProductSerialApi
      * Create request for operation 'productsProductIdProductSerialsPost'
      *
      * @param  int $product_id (required)
-     * @param  \Swagger\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
+     * @param  \VereTech\SyncroMSP_PHPclient\Client\Model\ProductIdProductSerialsBody $body Product Serial object that needs to be added (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
