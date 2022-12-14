@@ -25,7 +25,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace VereTech\SyncroMSP_PHPclient\Client\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace VereTech\SyncroMSP_PHPclient\Client\Model;
 
 /**
  * Interface abstracting model access.

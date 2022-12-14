@@ -26,7 +26,7 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace VereTech\SyncroMSP_PHPclient\Client;
 
 /**
  * EstimatesBodyTest Class Doc Comment
